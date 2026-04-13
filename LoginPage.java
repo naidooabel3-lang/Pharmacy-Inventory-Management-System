@@ -9,11 +9,9 @@ public class LoginPage {
     private JTextField usernameField;
     private JPasswordField passwordField;
     private Connection connection;
-
-    // Update your local MySQL credentials
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/healthfirst";
+    private static final String DB_URL = "ADD HERE";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "Admin123";
+    private static final String DB_PASS = "ADD HERE";
 
     public LoginPage() {
         initializeDatabase();
