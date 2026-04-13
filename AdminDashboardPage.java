@@ -18,7 +18,7 @@ public class AdminDashboardPage {
     private void initializeAdminDashboard() {
         applyTheme();
 
-        adminFrame = new JFrame("Pharmacy Management System - Admin Dashboard");
+        adminFrame = new JFrame("ADD HERE");
         adminFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         adminFrame.setSize(850, 550);
         adminFrame.setLocationRelativeTo(null);
